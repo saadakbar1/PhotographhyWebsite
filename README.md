@@ -1,2 +1,2 @@
 # personalwebsite
-it is my technical skills and portfolio personal website.
+it is my technical skills and photography portfolio personal website.
