@@ -1,2 +1,2 @@
 # personalwebsite
-it is my technical skills and photography portfolio personal website.
+It is my technical skills and photography portfolio personal website made using html,css amd javascript.
