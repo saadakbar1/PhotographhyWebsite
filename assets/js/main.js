@@ -58,7 +58,7 @@ sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
 // JavaScript to toggle between light and dark mode
 document.addEventListener('DOMContentLoaded', () => {
     const themeToggler = document.getElementById('theme-toggler');
-    let isDarkMode = false;
+    let isDarkMode = true; // Start in dark mode
   
     themeToggler.addEventListener('click', () => {
       isDarkMode =!isDarkMode;
@@ -73,5 +73,8 @@ document.addEventListener('DOMContentLoaded', () => {
         themeToggler.classList.add('bxs-sun');
       }
     });
+  
+    // Apply dark mode immediately
+    document.body.classList.add('dark-mode'); // This line applies dark mode by default
   });
   
