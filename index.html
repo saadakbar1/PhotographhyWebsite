@@ -7,10 +7,15 @@
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <!-- =====BOX ICONS===== -->
+        
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 
         <title>Saad Akbar</title>
-        <link rel="icon"   href="assets\img\knight3.png">
+        <link rel="icon"   href="assets\img\fav.png">
         
     </head>
     <body>
@@ -18,7 +23,7 @@
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo"><b>Saad</b></a>
+                    <a href="#" class="nav__logo"><b>Saad.dev</b></a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
@@ -26,14 +31,18 @@
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Photography</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><i class="bx bxs-sun" id="theme-toggler"></i>
+
                     </ul>
                 </div>
 
                 <div class="nav__toggle" id="nav-toggle">
                     <i class='bx bx-menu'></i>
                 </div>
+        
             </nav>
         </header>
 
@@ -78,113 +87,149 @@
                     
                     <div>
                         <h2 class="about__subtitle">Hi,<b>Saad here</b></h2>
-                        <p class="about__text">I am a Web Developer and Competitive Programmer currently studying Electronics and Communication Engineering at Netaji Subhas University of Technology,Delhi. Alongside my studies, I have decent knowledge and keen intrest in Cryptocurrency and Stock Market. My passion for technology is complemented by my love for photography.</p>         
+                        <p class="about__text">I am a MERN Developer and Competitive Programmer. I am senior  at Netaji Subhas University of Technology,New Delhi in Electronics and Communication Engineering.I am well versed in DSA and good in CS fundamentals such as OOPS,DBMS,OS and Computer Networks.Apart from this I have great interest in Finances and CryptoCurrency.My passion for technology is complemented by my love for photography.</p>         
                     </div>                                   
                 </div>
             </section>
 
-            <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle"><b>Technical Skills</b></h2>
-                        <p class="skills__text"></p>
-                       
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-java skills__icon'></i>
-                                <span class="skills__name">JAVA</span>
-                            </div>
-                            <div class="skills__bar skills__java">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">100%</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-c-plus-plus skills__icon' ></i>
-                                <span class="skills__name">C++</span>
-                            </div>
-                            <div class="skills__bar skills__cplus">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">100%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">100%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">100%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-python skills__icon' ></i>
-                                <span class="skills__name">PYTHON</span>
-                            </div>
-                            <div class="skills__bar skills__python">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">80%</span>
-                            </div>
-                        </div>
-                        
-                        
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">70%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">60%</span>
-                            </div>
+                <div class="skills__container ">
+                    <div class="skills__box">
+                        <i class='bx bxl-java skills__icon'></i>
+                        <span class="skills__name">Java</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class='bx bxl-c-plus-plus skills__icon'></i>
+                        <span class="skills__name">C++</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="skills__name">HTML5</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class='bx bxl-css3 skills__icon'></i>
+                        <span class="skills__name">CSS3</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class='bx bxl-python skills__icon'></i>
+                        <span class="skills__name">Python</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class='bx bxl-javascript skills__icon'></i>
+                        <span class="skills__name">JavaScript</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class='bx bxl-react skills__icon'></i>
+                        <span class="skills__name">React.js</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class='bx bxl-nodejs skills__icon'></i>
+                        <span class="skills__name">Node.js</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class='bx bxl-mongodb skills__icon'></i>
+                        <span class="skills__name">MongoDB</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class="devicon-express-original skills__icon"></i>
+                        <span class="skills__name">Express.js</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class="devicon-tailwindcss-original skills__icon"></i>
+                        <span class="skills__name">TailwindCSS</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class="devicon-nextjs-original-wordmark  skills__icon"></i>
+                        <span class="skills__name">Next.js</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class="devicon-firebase-plain skills__icon"></i>
+                        <span class="skills__name">Firebase</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class="devicon-typescript-plain  skills__icon"></i>
+                        <span class="skills__name">TypeScript</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class="devicon-appwrite-plain skills__icon"></i>
+                        <span class="skills__name">Appwrite</span>
+                    </div>
+                    <div class="skills__box">
+                        <i class="devicon-bootstrap-plain skills__icon"></i>
+                        <span class="skills__name">Bootstrap</span>
+                    </div>
+                </div>
+            </section>
+            
+<!-- <!-projects <section class="about section " id="about"> -->
+           <section class="projects section" id="projects">
+                <h2 class="section-title">Projects</h2>
+            
+                <div class="projects__container bd-grid">
+                    <!-- Example Project Card -->
+                    <div class="project__card">
+                        <a href="https://blog-app-ofa9.onrender.com/" target="_blank">
+                            <img src="assets/img/blog.png" alt="Project Image" class="project__img">
+                        </a>
+                        <div class="project__info">
+                            <h3 class="project__title">Full Stack Blog Application</h3>
+                            <p class="project__description">• Developed a feature-rich tech MERN Stack Blog application with an admin dashboard, enabling CRUD operations for
+                                aritcles.<br>
+                                • Implemented essential functionalities including search, filters, likes, comments, post analysis, update profile, and dark mode for
+                                improved user experience.<br>
+                                • Integrated user authentication through Google and traditional method, along with options for profile and user customization.<br>
+                                <strong>Tech Stack: </strong>JavaScript, Node.js, React.js, Express.js, MongoDB, jQuery, Tailwind CSS, Flowbite, and Firebase.</p>
+                                <a href="https://github.com/saadakbar1/blog-app" target="_blank" class="project__link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
                         </div>
                     </div>
-                    
-                    <div>              
-                        <img src="assets/img/code.jpg" alt="" class="skills__img">
+                    <!-- Repeat the above div for each project you want to display -->
+                </div>
+                
+                <div class="projects__container bd-grid">
+                    <!-- Example Project Card -->
+                    <div class="project__card">
+                        <a href="https://connectify-three-tau.vercel.app/" target="_blank">
+                            <img src="assets/img/connectify.png" alt="Project Image" class="project__img">
+                        </a>
+                        <div class="project__info">
+                            <h3 class="project__title">Connectify</h3>
+                            <p class="project__description">• Created a dynamic social media platform with user authentication, enabling seamless profile management including updates,
+                                and delivering a fully responsive experience across devices.<br>
+                                • Implemented essential features such as creating, editing, liking, and saving posts, along with showcasing top creators and
+                                incorporating infinite scroll for enhanced user engagement<br>
+                                <strong>Tech Stack:</strong> TypeScript, Tailwind CSS, Shadcn UI, React Query, React.js, Appwrite.
+                            </p>
+                           
+                            <!-- GitHub Icon -->
+                            <a href="https://github.com/saadakbar1/Connectify" target="_blank" class="project__link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
                     </div>
+                    <!-- Repeat the above div for each project you want to display -->
+                </div>
+                
+                
+                <div class="projects__container bd-grid">
+                    <!-- Example Project Card -->
+                    <div class="project__card">
+                        <a href="https://saadakbar1.github.io/SortVisualizer/" target="_blank">
+                            <img src="assets/img/sort.png" alt="Project Image" class="project__img">
+                        </a>
+                        <div class="project__info">
+                            <h3 class="project__title">Full Stack Blog Application</h3>
+                            <p class="project__description">• Developed a live Sorting Visualizer, demonstrating various sorting techniques including selection, bubble, heap, merge,
+                                insertion, and quick sort, offering users an interactive learning experience.<br>
+                                <strong>Tech Stack:</strong> HTML, CSS, and JavaScript.</p>
+                            <a href="https://github.com/saadakbar1/SortVisualizer" target="_blank" class="project__link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Repeat the above div for each project you want to display -->
                 </div>
             </section>
 
@@ -193,163 +238,163 @@
                 <h2 class="section-title">Photography</h2>
                 <h2 class="work-mobile">Shot On iQOO7</h2>
                 <div class="work__container bd-grid">
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\mumbaii.png" alt="">
                     </a>
                     
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\metroo.jpg" alt="">
                     </a>
-                    <a href="" class="work__img" y="60">
+                    <a  class="work__img" y="60">
                         <img src="assets\img\flower.jpg" y="60" alt="">
                     </a>
                    
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\hum.png" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\ig.png" alt="">
                     </a>
                     
-                    <a href="" class="work__img" y="60">
+                    <a  class="work__img" y="60">
                         <img src="assets\img\imam.jpg" y="60" alt="">
                     </a>
-                    <a href="" class="work__img" y="60">
+                    <a  class="work__img" y="60">
                         <img src="assets\img\mjid.jpg" y="60" alt="">
                     </a>
                     
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\lott.png" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\khandala.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\gate.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\eye.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\jaipur.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\build.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\nsit.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\bee.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\phone.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\locoo.png" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\face.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\block.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\poor.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\hawa.png" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\gateway.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\night.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\kanpur.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\qutub.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\marine.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\india.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\tow.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\taj.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\chowk.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\noida.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\redf.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\gn.jpeg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\stats.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\tuneman.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\plane.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\udd.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\holi.jpg" alt="">
                     </a>
                     
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\tapi.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\be.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\beee.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\bug.jpg" alt="">
                     </a>
                     
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\trail.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\wheel.png" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\kk.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\car.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\lko.jpeg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\keeda.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\ganj.png" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\wat.jpg" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <a  class="work__img">
                         <img src="assets\img\realme.jpeg" alt="">
                     </a>
                 </div>
@@ -390,7 +435,7 @@
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
         <script>
             var typed = new Typed(".auto-input", {
-                strings: ["FrontEnd Developer.", "Competitive Programmer.", "Photographer."],
+                strings: ["Full Stack Developer.", "Competitive Programmer.", "Photographer."],
                 typeSpeed: 100,
                 backSpeed: 100,
                 loop: true,
