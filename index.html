@@ -1,193 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- =====BOX ICONS===== -->
-        
-        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-          
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
-        <title>Saad Akbar</title>
-        <link rel="icon"   href="assets\img\fav.png">
-        
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
+    <title>Saad Akbar</title>
+    <link rel="icon" href="assets\img\fav.png">
+
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo"><b>Saad.dev</b></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Photography</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><i class="bx bxs-sun" id="theme-toggler"></i>
+
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Saad</span><br>I'm a <span
+                        class="auto-input" </span></h1>
+
+                <a href="https://drive.google.com/file/d/1CKK6ZRrAQwtawwMv3g6NOXt749GaP6Ow/view?usp=sharing"
+                    target="_blank" class="button">Download CV</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/saad-akbar10" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/clicks.360_saad/" target=_blank class="home__social-icon"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/saadakbar1" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://twitter.com/saad_akbar_10" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-twitter'></i></a>
+
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="-10 3 510 500" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M485,287Q479,324,457.5,354.5Q436,385,411.5,412Q387,439,356,460.5Q325,482,287.5,488Q250,494,214,483Q178,472,148,452Q118,432,91,408.5Q64,385,45,354Q26,323,14,286.5Q2,250,14,213.5Q26,177,46,146.5Q66,116,90,89.5Q114,63,145.5,43.5Q177,24,213.5,14.5Q250,5,287.5,12.5Q325,20,360,35.5Q395,51,420.5,79Q446,107,457,143Q468,179,479.5,214.5Q491,250,485,287Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M485,287Q479,324,457.5,354.5Q436,385,411.5,412Q387,439,356,460.5Q325,482,287.5,488Q250,494,214,483Q178,472,148,452Q118,432,91,408.5Q64,385,45,354Q26,323,14,286.5Q2,250,14,213.5Q26,177,46,146.5Q66,116,90,89.5Q114,63,145.5,43.5Q177,24,213.5,14.5Q250,5,287.5,12.5Q325,20,360,35.5Q395,51,420.5,79Q446,107,457,143Q468,179,479.5,214.5Q491,250,485,287Z" />
+                        <image class="home__blob-img" x="-40" y="-120" transform=scale(1.5)
+                            href="assets/img/saadnn.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/android-chrome-512x512.png" alt="">
+                </div>
+
                 <div>
-                    <a href="#" class="nav__logo"><b>Saad.dev</b></a>
+                    <h2 class="about__subtitle">Hi,<b>Saad here</b></h2>
+                    <p class="about__text">I am a MERN Developer and Competitive Programmer. I am senior at Netaji
+                        Subhas University of Technology,New Delhi in Electronics and Communication Engineering.I am well
+                        versed in DSA and good in CS fundamentals such as OOPS,DBMS,OS and Computer Networks.Apart from
+                        this I have great interest in Finances and CryptoCurrency.My passion for technology is
+                        complemented by my love for photography.</p>
                 </div>
+            </div>
+        </section>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Photography</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                        <li class="nav__item"><i class="bx bxs-sun" id="theme-toggler"></i>
-
-                    </ul>
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__container ">
+                <div class="skills__box">
+                    <i class='bx bxl-java skills__icon'></i>
+                    <span class="skills__name">Java</span>
                 </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
+                <div class="skills__box">
+                    <i class='bx bxl-c-plus-plus skills__icon'></i>
+                    <span class="skills__name">C++</span>
                 </div>
-        
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Saad</span><br>I'm a <span  class="auto-input"</span></h1>
-
-                    <a href="https://drive.google.com/file/d/1CKK6ZRrAQwtawwMv3g6NOXt749GaP6Ow/view?usp=sharing" target="_blank" class="button" >Download CV</a>
+                <div class="skills__box">
+                    <i class='bx bxl-html5 skills__icon'></i>
+                    <span class="skills__name">HTML5</span>
                 </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/saad-akbar10" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.instagram.com/clicks.360_saad/" target=_blank class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
-                    <a href="https://github.com/saadakbar1" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                    <a href="https://twitter.com/saad_akbar_10" target="_blank" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
-                    
+                <div class="skills__box">
+                    <i class='bx bxl-css3 skills__icon'></i>
+                    <span class="skills__name">CSS3</span>
                 </div>
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="-10 3 510 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M485,287Q479,324,457.5,354.5Q436,385,411.5,412Q387,439,356,460.5Q325,482,287.5,488Q250,494,214,483Q178,472,148,452Q118,432,91,408.5Q64,385,45,354Q26,323,14,286.5Q2,250,14,213.5Q26,177,46,146.5Q66,116,90,89.5Q114,63,145.5,43.5Q177,24,213.5,14.5Q250,5,287.5,12.5Q325,20,360,35.5Q395,51,420.5,79Q446,107,457,143Q468,179,479.5,214.5Q491,250,485,287Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M485,287Q479,324,457.5,354.5Q436,385,411.5,412Q387,439,356,460.5Q325,482,287.5,488Q250,494,214,483Q178,472,148,452Q118,432,91,408.5Q64,385,45,354Q26,323,14,286.5Q2,250,14,213.5Q26,177,46,146.5Q66,116,90,89.5Q114,63,145.5,43.5Q177,24,213.5,14.5Q250,5,287.5,12.5Q325,20,360,35.5Q395,51,420.5,79Q446,107,457,143Q468,179,479.5,214.5Q491,250,485,287Z"/>
-                            <image class="home__blob-img" x="-40" y="-120" transform=scale(1.5) href="assets/img/saadnn.png"/>
-                        </g>
-                    </svg>
+                <div class="skills__box">
+                    <i class='bx bxl-python skills__icon'></i>
+                    <span class="skills__name">Python</span>
                 </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/android-chrome-512x512.png" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">Hi,<b>Saad here</b></h2>
-                        <p class="about__text">I am a MERN Developer and Competitive Programmer. I am senior  at Netaji Subhas University of Technology,New Delhi in Electronics and Communication Engineering.I am well versed in DSA and good in CS fundamentals such as OOPS,DBMS,OS and Computer Networks.Apart from this I have great interest in Finances and CryptoCurrency.My passion for technology is complemented by my love for photography.</p>         
-                    </div>                                   
+                <div class="skills__box">
+                    <i class='bx bxl-javascript skills__icon'></i>
+                    <span class="skills__name">JavaScript</span>
                 </div>
-            </section>
-
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-                <div class="skills__container ">
-                    <div class="skills__box">
-                        <i class='bx bxl-java skills__icon'></i>
-                        <span class="skills__name">Java</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class='bx bxl-c-plus-plus skills__icon'></i>
-                        <span class="skills__name">C++</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class='bx bxl-html5 skills__icon'></i>
-                        <span class="skills__name">HTML5</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class='bx bxl-css3 skills__icon'></i>
-                        <span class="skills__name">CSS3</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class='bx bxl-python skills__icon'></i>
-                        <span class="skills__name">Python</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class='bx bxl-javascript skills__icon'></i>
-                        <span class="skills__name">JavaScript</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class='bx bxl-react skills__icon'></i>
-                        <span class="skills__name">React.js</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class='bx bxl-nodejs skills__icon'></i>
-                        <span class="skills__name">Node.js</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class='bx bxl-mongodb skills__icon'></i>
-                        <span class="skills__name">MongoDB</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class="devicon-express-original skills__icon"></i>
-                        <span class="skills__name">Express.js</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class="devicon-tailwindcss-original skills__icon"></i>
-                        <span class="skills__name">TailwindCSS</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class="devicon-nextjs-original-wordmark  skills__icon"></i>
-                        <span class="skills__name">Next.js</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class="devicon-firebase-plain skills__icon"></i>
-                        <span class="skills__name">Firebase</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class="devicon-typescript-plain  skills__icon"></i>
-                        <span class="skills__name">TypeScript</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class="devicon-appwrite-plain skills__icon"></i>
-                        <span class="skills__name">Appwrite</span>
-                    </div>
-                    <div class="skills__box">
-                        <i class="devicon-bootstrap-plain skills__icon"></i>
-                        <span class="skills__name">Bootstrap</span>
-                    </div>
+                <div class="skills__box">
+                    <i class='bx bxl-react skills__icon'></i>
+                    <span class="skills__name">React.js</span>
                 </div>
-            </section>
-            
-<!-- <!-projects <section class="about section " id="about"> -->
-           <section class="projects section" id="projects">
-                <h2 class="section-title">Projects</h2>
-            
-                <div class="projects__container bd-grid">
-                    <!-- Example Project Card -->
-                    <div class="project__card">
-                        <a href="https://blog-app-ofa9.onrender.com/" target="_blank">
-                            <img src="assets/img/blog.png" alt="Project Image" class="project__img">
+                <div class="skills__box">
+                    <i class='bx bxl-nodejs skills__icon'></i>
+                    <span class="skills__name">Node.js</span>
+                </div>
+                <div class="skills__box">
+                    <i class='bx bxl-mongodb skills__icon'></i>
+                    <span class="skills__name">MongoDB</span>
+                </div>
+                <div class="skills__box">
+                    <i class="devicon-express-original skills__icon"></i>
+                    <span class="skills__name">Express.js</span>
+                </div>
+                <div class="skills__box">
+                    <i class="devicon-tailwindcss-original skills__icon"></i>
+                    <span class="skills__name">TailwindCSS</span>
+                </div>
+                <div class="skills__box">
+                    <i class="devicon-nextjs-original-wordmark  skills__icon"></i>
+                    <span class="skills__name">Next.js</span>
+                </div>
+                <div class="skills__box">
+                    <i class="devicon-firebase-plain skills__icon"></i>
+                    <span class="skills__name">Firebase</span>
+                </div>
+                <div class="skills__box">
+                    <i class="devicon-typescript-plain  skills__icon"></i>
+                    <span class="skills__name">TypeScript</span>
+                </div>
+                <div class="skills__box">
+                    <i class="devicon-appwrite-plain skills__icon"></i>
+                    <span class="skills__name">Appwrite</span>
+                </div>
+                <div class="skills__box">
+                    <i class="devicon-bootstrap-plain skills__icon"></i>
+                    <span class="skills__name">Bootstrap</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- <!-projects <section class="about section " id="about"> -->
+        <section class="projects section" id="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects__container bd-grid">
+                <!-- Example Project Card -->
+                <div class="project__card">
+                    <a href="https://blog-app-ofa9.onrender.com/" target="_blank">
+                        <img src="assets/img/blog.png" alt="Project Image" class="project__img">
+                    </a>
+                    <div class="project__info">
+                        <h3 class="project__title">Devbytes</h3>
+                        <p class="project__description">• Developed a feature-rich tech MERN Stack Blog application with
+                            an admin dashboard, enabling CRUD operations for
+                            aritcles.<br>
+                            • Implemented essential functionalities including search, filters, likes, comments, post
+                            analysis, update profile, and dark mode for
+                            improved user experience.<br>
+                            • Integrated user authentication through Google and traditional method, along with options
+                            for profile and user customization.<br>
+                            <strong>Tech Stack: </strong>JavaScript, Node.js, React.js, Express.js, MongoDB, jQuery,
+                            Tailwind CSS, Flowbite, and Firebase.
+                        </p>
+                        <a href="https://github.com/saadakbar1/blog-app" target="_blank" class="project__link">
+                            <i class="fab fa-github"></i> View Code
                         </a>
-                        <div class="project__info">
-                            <h3 class="project__title">Full Stack Blog Application</h3>
-                            <p class="project__description">• Developed a feature-rich tech MERN Stack Blog application with an admin dashboard, enabling CRUD operations for
-                                aritcles.<br>
-                                • Implemented essential functionalities including search, filters, likes, comments, post analysis, update profile, and dark mode for
-                                improved user experience.<br>
-                                • Integrated user authentication through Google and traditional method, along with options for profile and user customization.<br>
-                                <strong>Tech Stack: </strong>JavaScript, Node.js, React.js, Express.js, MongoDB, jQuery, Tailwind CSS, Flowbite, and Firebase.</p>
-                                <a href="https://github.com/saadakbar1/blog-app" target="_blank" class="project__link">
-                                    <i class="fab fa-github"></i> View Code
-                                </a>
-                        </div>
                     </div>
-                    <!-- Repeat the above div for each project you want to display -->
                 </div>
-                
+
+
                 <div class="projects__container bd-grid">
                     <!-- Example Project Card -->
                     <div class="project__card">
@@ -196,13 +216,16 @@
                         </a>
                         <div class="project__info">
                             <h3 class="project__title">Connectify</h3>
-                            <p class="project__description">• Created a dynamic social media platform with user authentication, enabling seamless profile management including updates,
+                            <p class="project__description">• Created a dynamic social media platform with user
+                                authentication, enabling seamless profile management including updates,
                                 and delivering a fully responsive experience across devices.<br>
-                                • Implemented essential features such as creating, editing, liking, and saving posts, along with showcasing top creators and
+                                • Implemented essential features such as creating, editing, liking, and saving posts,
+                                along with showcasing top creators and
                                 incorporating infinite scroll for enhanced user engagement<br>
-                                <strong>Tech Stack:</strong> TypeScript, Tailwind CSS, Shadcn UI, React Query, React.js, Appwrite.
+                                <strong>Tech Stack:</strong> TypeScript, Tailwind CSS, Shadcn UI, React Query, React.js,
+                                Appwrite.
                             </p>
-                           
+
                             <!-- GitHub Icon -->
                             <a href="https://github.com/saadakbar1/Connectify" target="_blank" class="project__link">
                                 <i class="fab fa-github"></i> View Code
@@ -211,238 +234,279 @@
                     </div>
                     <!-- Repeat the above div for each project you want to display -->
                 </div>
-                
-                
-                <div class="projects__container bd-grid">
-                    <!-- Example Project Card -->
-                    <div class="project__card">
-                        <a href="https://saadakbar1.github.io/SortVisualizer/" target="_blank">
-                            <img src="assets/img/sort.png" alt="Project Image" class="project__img">
+
+                <div class="project__card">
+                    <a href="https://todo-five-lovat.vercel.app/" target="_blank">
+                        <img src="assets/img/todo.png" alt="Project Image" class="project__img">
+                    </a>
+                    <div class="project__info">
+                        <h3 class="project__title">Scheduleia</h3>
+                        <p class="project__description">• Developed a todo list application to manage your daily tasks.<br>
+                            • Implemented essential features such as creating, editing, and deleting tasks with priority.<br>
+                            
+                            <strong>Tech Stack: </strong>HTML,CSS,JavaScript, React.js,  
+                            Tailwind CSS.
+                        </p>
+                        <a href="https://github.com/saadakbar1/todo/" target="_blank" class="project__link">
+                            <i class="fab fa-github"></i> View Code
                         </a>
-                        <div class="project__info">
-                            <h3 class="project__title">Sorting Visualizer</h3>
-                            <p class="project__description">• Developed a live Sorting Visualizer, demonstrating various sorting techniques including selection, bubble, heap, merge,
-                                insertion, and quick sort, offering users an interactive learning experience.<br>
-                                <strong>Tech Stack:</strong> HTML, CSS, and JavaScript.</p>
-                            <a href="https://github.com/saadakbar1/SortVisualizer" target="_blank" class="project__link">
-                                <i class="fab fa-github"></i> View Code
-                            </a>
-                        </div>
                     </div>
-                    <!-- Repeat the above div for each project you want to display -->
                 </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Photography</h2>
-                <h2 class="work-mobile">Shot On iQOO7</h2>
-                <div class="work__container bd-grid">
-                    <a  class="work__img">
-                        <img src="assets\img\mumbaii.png" alt="">
+                <div class="project__card">
+                    <a href="" target="_blank">
+                        <img src="assets/img/yt.png" alt="Project Image" class="project__img">
                     </a>
-                    
-                    <a  class="work__img">
-                        <img src="assets\img\metroo.jpg" alt="">
-                    </a>
-                    <a  class="work__img" y="60">
-                        <img src="assets\img\flower.jpg" y="60" alt="">
-                    </a>
-                   
-                    <a  class="work__img">
-                        <img src="assets\img\hum.png" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\ig.png" alt="">
-                    </a>
-                    
-                    <a  class="work__img" y="60">
-                        <img src="assets\img\imam.jpg" y="60" alt="">
-                    </a>
-                    <a  class="work__img" y="60">
-                        <img src="assets\img\mjid.jpg" y="60" alt="">
-                    </a>
-                    
-                    <a  class="work__img">
-                        <img src="assets\img\lott.png" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\khandala.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\gate.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\eye.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\jaipur.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\build.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\nsit.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\bee.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\phone.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\locoo.png" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\face.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\block.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\poor.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\hawa.png" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\gateway.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\night.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\kanpur.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\qutub.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\marine.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\india.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\tow.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\taj.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\chowk.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\noida.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\redf.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\gn.jpeg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\stats.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\tuneman.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\plane.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\udd.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\holi.jpg" alt="">
-                    </a>
-                    
-                    <a  class="work__img">
-                        <img src="assets\img\tapi.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\be.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\beee.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\bug.jpg" alt="">
-                    </a>
-                    
-                    <a  class="work__img">
-                        <img src="assets\img\trail.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\wheel.png" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\kk.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\car.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\lko.jpeg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\keeda.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\ganj.png" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\wat.jpg" alt="">
-                    </a>
-                    <a  class="work__img">
-                        <img src="assets\img\realme.jpeg" alt="">
-                    </a>
+                    <div class="project__info">
+                        <h3 class="project__title">YT Toolkit</h3>
+                        <p class="project__description">• Made a chrome extension which bookmarks notes on timestamps of youtube video.<br>
+                            • We can add ,edit and delete notes.<br>
+                            • Auto pause video while switching tab ,feature <br>
+                            <strong>Tech Stack: </strong>JavaScript,  React.js, HTML,CSS,TailwindCSS
+                        </p>
+                        <a href="https://github.com/saadakbar1/youtube_toolkit" target="_blank" class="project__link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
                 </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input" placeholder="Type your message here"></textarea>
-                        <input type="button" value="Submit" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title"></p>
-            <div class="footer__social">
-                <a href="https://www.facebook.com/saadmohammad.akbar/" target="_blank" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/clicks.360_saad/" target="_blank" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://twitter.com/saad_akbar_10" target="_blank" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <!-- Repeat the above div for each project you want to display -->
             </div>
-            <p class="footer__copy">&#169; Saad Akbar. All rigths reserved</p>
-        </footer>
+            <div class="projects__container bd-grid">
+                <!-- Example Project Card -->
+                <div class="project__card">
+                    <a href="https://sort-visualizer-nine.vercel.app/" target="_blank">
+                        <img src="assets/img/sort.png" alt="Project Image" class="project__img">
+                    </a>
+                    <div class="project__info">
+                        <h3 class="project__title">Sorting Visualizer</h3>
+                        <p class="project__description">• Developed a live Sorting Visualizer, demonstrating various
+                            sorting techniques including selection, bubble, heap, merge,
+                            insertion, and quick sort, offering users an interactive learning experience.<br>
+                            <strong>Tech Stack:</strong> HTML, CSS, and JavaScript.
+                        </p>
+                        <a href="https://github.com/saadakbar1/Sort_Visualizer" target="_blank" class="project__link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+                <!-- Repeat the above div for each project you want to display -->
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Photography</h2>
+            <h2 class="work-mobile">Shot On iQOO7</h2>
+            <div class="work__container bd-grid">
+                <a class="work__img">
+                    <img src="assets\img\mumbaii.png" alt="">
+                </a>
+
+                <a class="work__img">
+                    <img src="assets\img\metroo.jpg" alt="">
+                </a>
+                <a class="work__img" y="60">
+                    <img src="assets\img\flower.jpg" y="60" alt="">
+                </a>
+
+                <a class="work__img">
+                    <img src="assets\img\hum.png" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\ig.png" alt="">
+                </a>
+
+                <a class="work__img" y="60">
+                    <img src="assets\img\imam.jpg" y="60" alt="">
+                </a>
+                <a class="work__img" y="60">
+                    <img src="assets\img\mjid.jpg" y="60" alt="">
+                </a>
+
+                <a class="work__img">
+                    <img src="assets\img\lott.png" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\khandala.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\gate.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\eye.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\jaipur.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\build.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\nsit.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\bee.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\phone.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\locoo.png" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\face.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\block.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\poor.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\hawa.png" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\gateway.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\night.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\kanpur.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\qutub.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\marine.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\india.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\tow.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\taj.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\chowk.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\noida.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\redf.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\gn.jpeg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\stats.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\tuneman.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\plane.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\udd.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\holi.jpg" alt="">
+                </a>
+
+                <a class="work__img">
+                    <img src="assets\img\tapi.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\be.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\beee.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\bug.jpg" alt="">
+                </a>
+
+                <a class="work__img">
+                    <img src="assets\img\trail.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\wheel.png" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\kk.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\car.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\lko.jpeg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\keeda.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\ganj.png" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\wat.jpg" alt="">
+                </a>
+                <a class="work__img">
+                    <img src="assets\img\realme.jpeg" alt="">
+                </a>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"
+                        placeholder="Type your message here"></textarea>
+                    <input type="button" value="Submit" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title"></p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/saadmohammad.akbar/" target="_blank" class="footer__icon"><i
+                    class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/clicks.360_saad/" target="_blank" class="footer__icon"><i
+                    class='bx bxl-instagram'></i></a>
+            <a href="https://twitter.com/saad_akbar_10" target="_blank" class="footer__icon"><i
+                    class='bx bxl-twitter'></i></a>
+        </div>
+        <p class="footer__copy">&#169; Saad Akbar. All rigths reserved</p>
+    </footer>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-        <script>
-            var typed = new Typed(".auto-input", {
-                strings: ["Full Stack Developer.", "Competitive Programmer.", "Photographer."],
-                typeSpeed: 100,
-                backSpeed: 100,
-                loop: true,
-               // Use this attribute to control the text color
-            })
-               
-        </script>
-        
-    </body>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Full Stack Developer.", "Competitive Programmer.", "Photographer."],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+            // Use this attribute to control the text color
+        })
+
+    </script>
+
+</body>
+
 </html>
