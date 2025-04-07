@@ -54,6 +54,7 @@ body {
   color: var(--second-color);
 }
 
+
 h1, h2, p {
   margin: 0;
 }
@@ -63,14 +64,20 @@ h1, h2, p {
   /* Style for the section title */
 }
 
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 20px; /* Space between cards */
+}
+
 .project__card {
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  margin-bottom: 20px;
-  transform: scale(0.85);
+  padding: 20px;
 }
+
 
 .project__img {
   width: 100%;
@@ -353,12 +360,7 @@ img {
   
 }
 
-/* ===== SKILLS =====*/@keyframes moveRandomly {
-  0%, 100% { transform: translateX(0) translateY(0); }
-  25% { transform: translateX(50px) translateY(50px); }
-  50% { transform: translateX(-50px) translateY(-50px); }
-  75% { transform: translateX(-50px) translateY(50px); }
-}
+
 
 .skills__container {
   margin-top: 100px;
@@ -375,7 +377,7 @@ img {
 
 .skills__container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+  grid-template-columns: repeat(1, 1fr); /* Creates 4 equal-width columns */
   gap: 20px; /* Adjusts the gap between grid items */
   padding: 20px; /* Adds padding around the container */
 }
@@ -427,6 +429,7 @@ img {
   border-radius: .5rem;
   z-index: var(--z-back);
 }
+
 /* 
 .skills__html {
   width: 100%;
